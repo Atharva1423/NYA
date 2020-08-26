@@ -1,0 +1,40 @@
+/*****HEADER*****/
+h1{
+	float: right;
+	font-size: 250%;
+
+}
+
+nav{
+	height: 100px;
+	font-family: 'Times New Roman', serif;
+	border-bottom: 2px solid cyan;
+	border-radius: 8px;
+	margin-bottom: 5%;
+}
+
+.logo{
+	float: left;
+	width: 17%;
+	height: 14%;
+}
+
+nav a{
+	text-decoration:none;
+	text-align: center;
+	color: black;
+	padding: 1%;
+	font-size: 150%;
+}
+
+nav a:hover, nav a:active{
+	text-decoration: none;
+	opacity: .8;	
+	background-color: #95B9C7;
+	color: black;
+	box-shadow: 0 1px 5px 1px cyan;
+}
+
+/*****BODY*****/
+
+/*****FOOTER*****/
