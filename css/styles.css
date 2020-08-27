@@ -10,7 +10,6 @@ nav{
 	font-family: 'Times New Roman', serif;
 	border-bottom: 2px solid cyan;
 	border-radius: 8px;
-	margin-bottom: 5%;
 }
 
 .logo{
@@ -30,11 +29,22 @@ nav a{
 nav a:hover, nav a:active{
 	text-decoration: none;
 	opacity: .8;	
-	background-color: #95B9C7;
+	background-color:#95B9C7;
 	color: black;
 	box-shadow: 0 1px 5px 1px cyan;
 }
 
 /*****BODY*****/
+.container-fluid{
+	padding: 3%;
+}
+
+.row div p{
+	background-color: #95B9C7;
+	margin: 5px;
+	padding: 15px;
+}
+
+
 
 /*****FOOTER*****/
