@@ -1,37 +1,39 @@
 /*****HEADER*****/
 h1{
-	float: right;
-	font-size: 250%;
+	float: left;
+		margin-top: 7%;
 
-}
-
-nav{
-	height: 100px;
-	font-family: 'Times New Roman', serif;
-	border-bottom: 2px solid cyan;
-	border-radius: 8px;
 }
 
 .logo{
 	float: left;
-	width: 17%;
-	height: 14%;
+	width: 16%;
+	height: 18%;
+	margin-top: 6%;
+	margin-left: 4%;
 }
 
-nav a{
-	text-decoration:none;
-	text-align: center;
-	color: black;
-	padding: 1%;
+#collapsable-nav{
+	margin-top: 1%;
+	margin-right: 5%;
+}
+
+li a {
+	color: #1A5276;
+	font-size: 120%;
+}
+
+li a:hover{
+	opacity: .9;
+	box-shadow: 0 1px 5px 1px grey;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+  }
+
+.glyphicon{
 	font-size: 150%;
-}
-
-nav a:hover, nav a:active{
-	text-decoration: none;
-	opacity: .8;	
-	background-color:#95B9C7;
-	color: black;
-	box-shadow: 0 1px 5px 1px cyan;
 }
 
 /*****BODY*****/
