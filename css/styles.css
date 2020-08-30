@@ -40,7 +40,7 @@ li a:hover{
 .glyphicon{
 	font-size: 150%;
 }
-
+/********* SMALL DEVICES ********/
 @media (max-width: 767px){
 	.button-tile{
 		margin-top: 30px;
@@ -48,10 +48,21 @@ li a:hover{
 
 	#collapsable-nav{
 	width: 100%;
+	}
+}
+/********* EXTRA SMALL DEVICES ********/
+@media (max-width: 831px){
+	h1{
+		font-size: 4vw;
+	}
 }
 
+/********* MEDIUM DEVICES ********/
+@media (max-width: 573px){
+	h1{
+		font-size: 5.5vw;
+	}
 }
-
 
 
 /*****BODY*****/
