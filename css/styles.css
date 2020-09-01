@@ -106,7 +106,7 @@ li a:hover{
 	color: #46AA9E;
 	}
 
-	.logo-tiles a:hover{
+	.logo-tiles a:hover ,.logo-tiles a:active{
 	text-decoration: none;
 	opacity: .8;
 	}
