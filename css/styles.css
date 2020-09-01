@@ -37,7 +37,7 @@ li a:hover{
   border: 1px solid #61122f;
   }
 
-.glyphicon{
+#collapsable-nav .glyphicon{
 	font-size: 150%;
 }
 /********* SMALL DEVICES ********/
@@ -48,6 +48,14 @@ li a:hover{
 
 	#collapsable-nav{
 	width: 100%;
+	}
+
+	.glyphicon{
+		vertical-align: middle;
+	}
+
+	.tile-text {
+		vertical-align: middle;
 	}
 }
 /********* EXTRA SMALL DEVICES ********/
@@ -79,3 +87,4 @@ li a:hover{
 
 
 /*****FOOTER*****/
+
