@@ -1,17 +1,21 @@
 /*****HEADER*****/
-h1{
-	float: left;
-
+.main-logo{
+	position: relative;
+	text-align: center;
+	margin-left: 50px;
 }
 
-header{
-	border-bottom: 2px solid cyan;
+.head-text{
+	position: absolute;
+	top: 70px;
+	font-size: 90%;
 }
 
-.logo{
-	float: left;
-	width: 16%;
-	height: 18%;
+.subhead-text{
+	position: absolute;
+	top: 85px;
+	font-size: 50%;
+	margin-left: 19px;
 }
 
 #collapsable-nav{
@@ -23,13 +27,12 @@ button{
 }
 
 li a {
-	color: #1A5276;
+	color: #46AA9E;
 	font-size: 120%;
 }
 
 li a:hover{
 	opacity: .9;
-	box-shadow: 0 1px 5px 1px grey;
 }
 
  button.navbar-toggle, .icon-bar {
@@ -42,8 +45,11 @@ li a:hover{
 }
 /********* SMALL DEVICES ********/
 @media (max-width: 767px){
+
+
+
 	.button-tile{
-		margin-top: 30px;
+		margin-top: 50px;
 	}
 
 	#collapsable-nav{
@@ -88,3 +94,19 @@ li a:hover{
 
 /*****FOOTER*****/
 
+.logo-tiles{
+	text-align: center;
+	font-size: 250%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+
+	.logo-tiles a{
+	margin: 4%;
+	color: #46AA9E;
+	}
+
+	.logo-tiles a:hover{
+	text-decoration: none;
+	opacity: .8;
+	}
