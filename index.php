@@ -70,6 +70,8 @@
 		</nav> 
 </header>
 
+
+
 <div class="container-fluid" style="background-image: url('images/wallpaper.jpg');">
 
 
@@ -98,6 +100,8 @@
 
 	</div>
 </div>
+
+<?php include 'email-form.php';?>
 
 <!-- Footer -->
 <footer class="page-footer">
