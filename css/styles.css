@@ -118,13 +118,12 @@ li a:hover{
 	.mySlides {display: none}
 	.myslides img {
 		vertical-align: middle;
-		width: 120px;
-		height: 100px;
 	}
 
 	/* Slideshow container */
 	.slideshow-container {
-	  max-width: 60%;
+	  max-width: 100%;
+	  max-height: 100%;
 	  position: relative;
 	  margin: auto;
 	}
@@ -137,9 +136,9 @@ li a:hover{
 	  width: auto;
 	  padding: 16px;
 	  margin-top: -22px;
-	  color: grey;
+	  color: #46AA9E;
 	  font-weight: bold;
-	  font-size: 18px;
+	  font-size: 30px;
 	  transition: 0.6s ease;
 	  border-radius: 0 3px 3px 0;
 	  user-select: none;
@@ -153,7 +152,7 @@ li a:hover{
 
 	/* On hover, add a black background color with a little bit see-through */
 	.prev:hover, .next:hover {
-	  background-color: rgba(0,0,0,0.8);
+		text-decoration: none;
 	}
 
 	/* Caption text */
