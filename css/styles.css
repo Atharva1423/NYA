@@ -85,10 +85,11 @@ li a:hover{
 }
 
 .row div{
-	background-color: #95B9C7;
-	margin: 5px;
-	padding: 15px;
+	padding: 1%;
 }
+
+.about-pic{
+padding-top: 10px}
 
 .about-header{
 	text-align: center;
